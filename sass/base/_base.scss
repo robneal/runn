@@ -1,0 +1,12 @@
+// _base.scss
+// ---------------------------------------------------------------------------//
+
+//Core Partials
+@import "_normalize";
+@import "_tagPreset";
+@import "_variables";
+@import "_mixins";
+
+body{
+	font-family: $bodyFont; 
+}

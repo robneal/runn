@@ -1,0 +1,137 @@
+// _shame.scss
+// ---------------------------------------------------------------------------//
+
+#loginPage{
+	background-color: $runnRed; 
+	color:white;
+	
+	.loginPage{
+		
+		max-width: 320px;
+	    margin: 0 auto;
+	    padding: 0 25px;
+	    //border: solid 1px white;
+	    min-height: calc(75vh);
+
+    	h1{
+		    text-align: center;
+		    margin: 20% auto 0 auto;
+		    font-size: 3.5em;
+		    font-weight: 900;
+		    color: white;
+    	}
+    	h3{
+    		text-align: center;
+    		font-weight: 400;
+    		font-size: 0.9em; 
+    		margin: 10px auto 10px auto;
+    	}
+    	.loginInterface{
+    		padding: 0 25px; 
+    		position:relative;
+    		margin: 90px auto 30px auto;
+
+    		.loginButtonLink{
+    			display: block;
+			    text-align: center;
+			    margin: 0 auto;
+			    button{
+			    	background: $runnRed;
+			    	color:white;
+				    border: solid 1px white;
+				    border-radius: 10px;
+				    padding: 10px;
+				    width: 100%;
+			    }
+			    .facebookLogin{
+			    	background: $facebookBlue; 
+			    }
+    		}
+		    .dividingHR{
+	    		margin:30px auto;
+	    	}
+	    	.positionedOR{
+	    		position: absolute;
+			    left: 40%;
+			    z-index: 10;
+			    top: 70px;
+			    padding: 0px 16px;
+			    background: #cd0a24;
+	    	}
+	    	.signupReminder{
+	    		font-size: 0.8em;
+			    text-align: center;
+			    font-weight: 300;
+			    margin: 10px auto;
+			    a{
+			    	font-weight: bold;
+				    color: white;
+				    text-decoration: none;
+				    &:hover{
+				    	color: blue;
+				    }
+			    }
+	    	}
+
+    	}
+
+    	.termsReminder{
+    		font-size: 0.5em;
+		    font-weight: 300;
+		    text-align: center;
+		    a{
+		    	font-weight: bold;
+			    color: white;
+			    text-decoration: none;
+			    &:hover{
+			    	color: blue;
+			    }
+		    }
+    	}
+
+	}
+	footer{
+		font-size: 0.3em;
+	    text-align: center;
+	    font-weight: 100;
+	    padding: 10px;
+
+	    .termsReminder{
+    		font-size: 0.5em;
+		    font-weight: 300;
+		    text-align: center;
+		    margin: 10px auto; 
+		    a{
+		    	font-weight: bold;
+			    color: white;
+			    text-decoration: none;
+			    &:hover{
+			    	color: blue;
+			    }
+		    }
+    	}
+	    img{
+	    	width:10px;
+	    	height:10px; 
+	    }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

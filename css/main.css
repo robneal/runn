@@ -441,8 +441,7 @@ body {
   #loginPage .loginPage {
     max-width: 320px;
     margin: 0 auto;
-    padding: 0 25px;
-    min-height: calc(75vh); }
+    padding: 0 25px; }
     #loginPage .loginPage h1 {
       text-align: center;
       margin: 20% auto 0 auto;
@@ -520,5 +519,79 @@ body {
     #loginPage footer img {
       width: 10px;
       height: 10px; }
+
+#profilePage {
+  background-color: #414040; }
+  #profilePage .contentWrapper {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 25px;
+    min-height: calc(75vh); }
+    #profilePage .contentWrapper header {
+      display: flex;
+      justify-content: space-around;
+      margin: 0px auto;
+      background-color: red;
+      flex-direction: initial;
+      padding: 40px 0 6px 0;
+      text-align: center;
+      color: white;
+      margin-top: 20px; }
+      #profilePage .contentWrapper header a {
+        min-height: initial; }
+    #profilePage .contentWrapper .profileImageSection {
+      background-color: white;
+      color: black;
+      text-align: center;
+      padding: 20px 0 20px 0; }
+      #profilePage .contentWrapper .profileImageSection h3 {
+        font-size: 0.9em;
+        margin: 12px auto;
+        font-weight: 300; }
+      #profilePage .contentWrapper .profileImageSection img {
+        width: 150px;
+        height: 150px;
+        border-radius: 150px; }
+      #profilePage .contentWrapper .profileImageSection h4 {
+        font-size: 0.7em;
+        margin: 15px auto; }
+    #profilePage .contentWrapper .runList {
+      background-color: white;
+      color: black;
+      text-align: center;
+      padding: 15px 15px; }
+      #profilePage .contentWrapper .runList h3 {
+        padding: 0 0 10px 0;
+        color: #cd0a24;
+        text-align: center;
+        font-weight: normal; }
+      #profilePage .contentWrapper .runList .runnItem {
+        display: block;
+        font-weight: 400;
+        text-align: left;
+        border-top: solid 1px #efefef;
+        padding: 16px 0px; }
+    #profilePage .contentWrapper footer {
+      border-top: solid 1px #efefef;
+      font-size: 0.3em;
+      text-align: center;
+      font-weight: 700;
+      padding: 10px;
+      color: black;
+      background-color: white; }
+      #profilePage .contentWrapper footer .termsReminder {
+        font-size: 0.5em;
+        font-weight: 300;
+        text-align: center;
+        margin: 10px auto; }
+        #profilePage .contentWrapper footer .termsReminder a {
+          font-weight: bold;
+          color: white;
+          text-decoration: none; }
+          #profilePage .contentWrapper footer .termsReminder a:hover {
+            color: blue; }
+      #profilePage .contentWrapper footer img {
+        width: 10px;
+        height: 10px; }
 
 /*# sourceMappingURL=main.css.map */

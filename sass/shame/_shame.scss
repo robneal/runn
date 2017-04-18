@@ -11,7 +11,7 @@
 	    margin: 0 auto;
 	    padding: 0 25px;
 	    //border: solid 1px white;
-	    min-height: calc(75vh);
+	    //min-height: calc(75vh);
 
     	h1{
 		    text-align: center;
@@ -118,7 +118,111 @@
 }
 
 
+#profilePage{
+	background-color: #414040; 
+	//color:white;
+	
+	.contentWrapper{
+		
 
+		max-width: 320px;
+	    margin: 0 auto;
+	    padding: 0 25px;
+	    //border: solid 1px white;
+	    min-height: calc(75vh);
+
+	    header{
+	    	display: flex;
+		    justify-content: space-around;
+		    margin: 0px auto;
+		    background-color: red;
+		    flex-direction: initial;
+		    padding: 40px 0 6px 0;
+		    text-align: center;
+		    color:white;
+		    margin-top: 20px;
+
+	    	a{
+	    		min-height: initial;
+	    	}
+
+	    }
+    	
+	    .profileImageSection{
+	    	background-color: white;
+		    color: black;
+		    text-align: center;
+		    padding: 20px 0 20px 0;
+		    h3{
+		    	font-size: 0.9em;
+			    margin: 12px auto;
+			    font-weight: 300;
+		    }
+		    img{
+		    	width:150px;
+		    	height: 150px;
+		    	border-radius: 150px;
+		    }
+		    h4{
+		    	font-size: 0.7em;
+    			margin: 15px auto;
+		    }
+	    }
+
+	    .runList{
+	    	background-color: white;
+		    color: black;
+		    text-align: center;
+		    //border-top: solid 1px #efefef;
+		    padding: 15px 15px;
+
+		    h3{
+			    padding: 0 0 10px 0;
+			    color: $runnRed;
+			    text-align: center;
+			    font-weight: normal;
+		    }
+		    .runnItem{
+		    	display: block;
+		    	font-weight: 400;
+			    text-align: left;
+			    border-top: solid 1px #efefef;
+			    padding: 16px 0px;
+		    }
+	    }
+
+
+	    footer{
+		    border-top: solid 1px #efefef;
+		    font-size: 0.3em;
+		    text-align: center;
+		    font-weight: 700;
+		    padding: 10px;
+		    color: black;
+		    background-color: white;
+
+		    .termsReminder{
+	    		font-size: 0.5em;
+			    font-weight: 300;
+			    text-align: center;
+			    margin: 10px auto; 
+			    a{
+			    	font-weight: bold;
+				    color: white;
+				    text-decoration: none;
+				    &:hover{
+				    	color: blue;
+				    }
+			    }
+	    	}
+		    img{
+		    	width:10px;
+		    	height:10px; 
+		    }
+		}
+	}
+
+}
 
 
 

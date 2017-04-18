@@ -524,21 +524,23 @@ body {
   background-color: #414040; }
   #profilePage .contentWrapper {
     max-width: 320px;
-    margin: 0 auto;
-    padding: 0 25px;
+    margin: 20px auto;
+    padding: 0px;
     min-height: calc(75vh); }
     #profilePage .contentWrapper header {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       margin: 0px auto;
       background-color: red;
       flex-direction: initial;
-      padding: 40px 0 6px 0;
-      text-align: center;
+      padding: 40px 20px 6px 20px;
+      text-align: left;
       color: white;
-      margin-top: 20px; }
+      margin-top: 20px;
+      flex-wrap: initial; }
       #profilePage .contentWrapper header a {
-        min-height: initial; }
+        min-height: initial;
+        margin-right: auto; }
     #profilePage .contentWrapper .profileImageSection {
       background-color: white;
       color: black;
@@ -564,12 +566,13 @@ body {
         padding: 0 0 10px 0;
         color: #cd0a24;
         text-align: center;
-        font-weight: normal; }
+        font-weight: normal;
+        border-bottom: solid 1px #cd0a24; }
       #profilePage .contentWrapper .runList .runnItem {
         display: block;
         font-weight: 400;
         text-align: left;
-        border-top: solid 1px #efefef;
+        border-bottom: solid 1px #efefef;
         padding: 16px 0px; }
     #profilePage .contentWrapper footer {
       border-top: solid 1px #efefef;
@@ -578,7 +581,7 @@ body {
       font-weight: 700;
       padding: 10px;
       color: black;
-      background-color: white; }
+      background-color: #efefef; }
       #profilePage .contentWrapper footer .termsReminder {
         font-size: 0.5em;
         font-weight: 300;

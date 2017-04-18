@@ -126,24 +126,29 @@
 		
 
 		max-width: 320px;
-	    margin: 0 auto;
-	    padding: 0 25px;
+	    margin: 20px auto;
+	    padding: 0px;
 	    //border: solid 1px white;
 	    min-height: calc(75vh);
 
 	    header{
 	    	display: flex;
-		    justify-content: space-around;
+		    justify-content: space-between;
 		    margin: 0px auto;
 		    background-color: red;
 		    flex-direction: initial;
-		    padding: 40px 0 6px 0;
-		    text-align: center;
-		    color:white;
+		    padding: 40px 20px 6px 20px;
+		    text-align: left;
+		    color: white;
 		    margin-top: 20px;
+		    flex-wrap: initial;
 
 	    	a{
 	    		min-height: initial;
+	    		margin-right:auto;
+	    	}
+	    	a:last-child{
+	    		// width: 50%;
 	    	}
 
 	    }
@@ -181,12 +186,13 @@
 			    color: $runnRed;
 			    text-align: center;
 			    font-weight: normal;
+			    border-bottom: solid 1px $runnRed;
 		    }
 		    .runnItem{
 		    	display: block;
 		    	font-weight: 400;
 			    text-align: left;
-			    border-top: solid 1px #efefef;
+			    border-bottom: solid 1px #efefef;
 			    padding: 16px 0px;
 		    }
 	    }
@@ -199,7 +205,7 @@
 		    font-weight: 700;
 		    padding: 10px;
 		    color: black;
-		    background-color: white;
+		    background-color: #efefef;
 
 		    .termsReminder{
 	    		font-size: 0.5em;
